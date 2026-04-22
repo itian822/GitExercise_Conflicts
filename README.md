@@ -1,5 +1,11 @@
 # GitExercise_Conflicts
 
+1. Clone this repo to your datahub or local computer (your choice)
+1. Merging ex1 branch into main branch... the difference here is a simple line of text conflict\\
+   1. first look at the diff
+   1. now merge e1 into main; note how the conflict gets shown to you...
+   # GitExercise_Conflicts
+
 
 ## Purpose
 To teach you to deal with git merge conflicts in 
@@ -114,3 +120,4 @@ On the top left of the git panel are a set of cloud icons, one with the arrow po
 You've dealt with a simple version of the notebook conflict problem. This workflow will happen in your projects all the time, when person A and person B need to merge their seperate parts of the project together into the final project. 
 
 Another common project workflow is if there's a red dot on pull (down arrow) that means someone else made changes to the remote that you don't have.  Pull operations need to be done before push operations... so if someone changed the remote after your clone but before your push you will have to pull first, merge, and resolve any conflicts before you are allowed to push your changes to remote.  We didn't have to do that here, but its a very normal workflow for your projects.
+
